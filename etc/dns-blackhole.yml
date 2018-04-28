@@ -20,10 +20,10 @@ dns-blackhole:
           - Advertising
           - Analytics
   config:
-    zone_file: /etc/unbound/blackhole.zone
+    zone_file: /etc/safet-dnsmasq/blackhole.zone
     # {domain} will be replaced by the blackholed domain, do not change it here
-    zone_data: 'local-zone: "{domain}" always_nxdomain' # For unbound
+    #zone_data: 'local-zone: "{domain}" always_nxdomain' # For unbound
     # zone_data: '{domain}=' # For PowerDNS recursor
-    # zone_data: 'server=/{domain}/' # For Dnsmasq
+     zone_data: 'server=/{domain}/' # For Dnsmasq
     blackhole_lists: *bh_lists
 
