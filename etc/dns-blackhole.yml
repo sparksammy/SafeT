@@ -11,6 +11,8 @@ dns-blackhole:
         - http://winhelp2002.mvps.org/hosts.txt
         - http://www.malwaredomainlist.com/hostslist/hosts.txt
         - https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts;showintro=0
+        - https://raw.githubusercontent.com/sparksammy/YABAH/master/hosts
+        - https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts
       easylist:
         - https://easylist.to/easylist/easylist.txt
         - https://raw.githubusercontent.com/paulgb/BarbBlock/master/BarbBlock.txt
